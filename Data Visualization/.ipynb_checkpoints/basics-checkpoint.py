@@ -1,9 +1,6 @@
 import matplotlib.pyplot as plt
-years = [1990, 1992, 1994, 1996, 1998, 2000, 2003, 2005, 2007, 2010]
-runs = [500, 700, 1100, 1500, 1800, 1200, 1700, 1300, 900, 1500]
-plt.bar(years,runs)
-plt.title("Sachin runs")
-plt.xlabel("Years")
-plt.ylabel("runs")
-plt.tight_layout()
+languages = ['Python', 'Java', 'C++', 'JavaScript', 'C#', 'others']
+usage = [30, 20, 10, 10, 7, 15]
+plt.pie(usage, labels=languages, autopct='%1.1f%%', startangle=90)
+plt.title("Programming Language Usage (Crowded Example)")
 plt.show()
