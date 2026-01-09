@@ -1,2 +1,2 @@
 # ai-ml-practice
-Jupyter notebooks for AI/ML learning
+In this i have practiced the codes fro the course i have done from code with harry...The course name is The Ultimate Job Ready Data Science Course
